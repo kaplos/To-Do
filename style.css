@@ -1,0 +1,107 @@
+:root{
+    font-family: sans-serif;
+}
+.main-holder{
+    display: flex;
+    flex: 1;
+
+    
+}
+
+.left-container,
+.right-container,
+ul > div{
+    display: flex;
+    width: auto;
+    height: 100vh;
+    flex: 1;
+
+}
+.left-container{
+    flex-direction: column;
+    align-items: center;
+    
+}
+.right-container{
+   
+    display: flex;
+    flex-direction: column;
+    border: 2px solid lightgray;
+    border-bottom: none;
+    align-items: center;
+    
+    
+}
+.right-container > .titleHolder{
+display: flex;
+justify-content: center;
+
+}
+.button-holder{
+    display: flex;
+    height: 5vh;
+}
+.button-holder > button{
+    border-radius: 25px;
+    display: flex;
+    flex: 1;
+    height: 75%;
+    width: 1.5in;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    background-color: rgb(206, 206, 255);
+    outline: none;
+    border: 2px solid lightgray;
+    box-shadow: 2px 2px black ;
+}
+.button-holder> button:hover{
+    background-color: rgb(206, 206, 255);
+    box-shadow: 0 0 3px #000000;
+}
+ul > div{
+    height: .5in;
+    width: 50vw;
+    border: 1.5px solid black;
+    align-items: center;
+    text-decoration: underline ;
+    margin: 3px;
+    border-radius: 10px;
+    box-shadow: 1.5px 1.5px black ;
+    margin-right: 15px;
+    margin-top: 10px;
+    
+}
+h1{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+
+}
+.button-holder > button:focus{
+    outline: none;
+    box-shadow: 0 0 3px #000000;
+}
+
+.completed{
+    text-decoration: line-through;
+  color: gray;
+
+}.form-holder{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.listDiv > span{
+    text-decoration: none;
+}
+#remove-all{
+    background-color: red;
+}
+@media  (max-width: 727px) {
+    .main-holder{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
