@@ -15,8 +15,8 @@
             <div class="button-holder">
                 <button id="add" onclick="getData()">Add To-Do</button>
                 <!-- div that opens up and accepts the input or just make a pop up -->
-                <button id="remove">Remove Last To-Do</button>
-                <button id="remove-all">Remove All Done</button>
+                <button id="remove" onclick="removeLastItem()">Remove Last To-Do</button>
+                <button id="remove-all" onclick="removeCheckedItems()">Remove All Checked</button>
             </div>
             <div class="form-holder">
                 <form action="" id="toDo">
@@ -32,6 +32,7 @@
                 <h2>Things To Do</h2>
             </div>
             <ul id="List" >
+            
             </ul>
         </div>
 

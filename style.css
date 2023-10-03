@@ -15,7 +15,20 @@ ul > div{
     width: auto;
     height: 100vh;
     flex: 1;
+   
+    align-items: space-around;
+}
+time{
+    margin-left: auto;
+    margin-right: 10px;
+    
+    
 
+}
+.checkBox{
+    cursor: pointer;
+    border-radius: 5%;
+    
 }
 .left-container{
     flex-direction: column;
@@ -54,6 +67,7 @@ justify-content: center;
     outline: none;
     border: 2px solid lightgray;
     box-shadow: 2px 2px black ;
+    cursor: pointer;
 }
 .button-holder> button:hover{
     background-color: rgb(206, 206, 255);
@@ -64,13 +78,13 @@ ul > div{
     width: 50vw;
     border: 1.5px solid black;
     align-items: center;
-    text-decoration: underline ;
+    
     margin: 3px;
     border-radius: 10px;
     box-shadow: 1.5px 1.5px black ;
     margin-right: 15px;
     margin-top: 10px;
-    
+    font-size: 25px;
 }
 h1{
     display: flex;
@@ -84,8 +98,9 @@ h1{
 }
 
 .completed{
-    text-decoration: line-through;
-  color: gray;
+    text-decoration: line-through ;
+    color: green;
+    
 
 }.form-holder{
     display: flex;
@@ -93,7 +108,8 @@ h1{
     padding-top: 10px;
 }
 .listDiv > span{
-    text-decoration: none;
+    font-size: 25px;
+    margin-left: 10%;
 }
 #remove-all{
     background-color: red;
